@@ -19,8 +19,7 @@ type
     JvLabel4: TJvLabel;
     JvLinkLabel1: TJvLinkLabel;
     procedure linkLabelClick(Sender: TObject);
-    procedure linkLabelLinkClick(Sender: TObject; LinkNumber: Integer; LinkText,
-      LinkParam: string);
+    procedure linkLabelLinkClick(Sender: TObject);
 
   private
     { Private declarations }
@@ -41,10 +40,9 @@ begin
    nil, nil, SW_SHOW);
 end;
 
-procedure TAcercaDe.linkLabelLinkClick(Sender: TObject; LinkNumber: Integer;
-  LinkText, LinkParam: string);
+procedure TAcercaDe.linkLabelLinkClick(Sender: TObject);
 begin
-  ShellExecute(Application.Handle, PChar('open'), PChar(linkLabel.Hint),
+  ShellExecute(Application.Handle, PChar('open'), PChar(JvLinkLabel1.Hint),
    nil, nil, SW_SHOW);
 end;
 

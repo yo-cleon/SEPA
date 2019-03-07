@@ -31937,6 +31937,6 @@ object AcercaDe: TAcercaDe
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
-    OnClick = linkLabelClick
+    OnClick = linkLabelLinkClick
   end
 end
