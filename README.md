@@ -3,7 +3,7 @@ Aplicación para la generación de ficheros de nóminas según normativa SEPA´.
 
 Requerimientos:
 - Firebird 2.5
-- IDE RAD Estudio 10.2.3 Tokyo
+- Delphi 10.2.3 Tokyo
   Componentes:
   * Alpha Controls v. 13.01
   * JEDI Code Library v 2.7
